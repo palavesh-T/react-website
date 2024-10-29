@@ -1,0 +1,126 @@
+.python_main_div{
+    /* background-image: url(../background//hed\ banner1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.python_main_div video{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.python_div_1{
+    display: flex;
+    gap:20px;
+    padding: 20px;
+}
+.python_div_2,.python_div_pic_add,.python_main_back_div_conts,.python_last_pic_add,.python_last_div_conts{
+    width: 100%;
+}
+.python_div_pic_add img,.python_last_pic_add img{
+    width: 100%;
+}
+.python_div_2 p,.python_sub_div p,.python_last_div_conts p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.9;
+    font-family: 'Times New Roman', Times, serif;
+}
+.python_sub_div h2,.python_last_div_conts h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.python_sub_div{
+    padding: 20px;
+}
+.python_main_back_div_1,.python_last_main_div{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.python_main_back_div{
+    background-color: #104c6e;
+}
+.python_main_back_div h2{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.python_main_back_div_conts p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+/* Mobile View CSS */
+@media (max-width: 768px) {
+    .python_main_div {
+        height: 40vh; /* Adjust height for mobile screens */
+        background-size: cover; /* Ensure background image covers the area */
+    }
+
+    .python_div_1 {
+        flex-direction: column; /* Stack items vertically on mobile */
+        gap: 15px; /* Reduce gap between items */
+        padding: 15px; /* Adjust padding for mobile view */
+    }
+
+    .python_div_2,
+    .python_div_pic_add,
+    .python_main_back_div_conts,
+    .python_last_pic_add,
+    .python_last_div_conts {
+        width: 100%; /* Ensure full width for mobile */
+    }
+
+    .python_div_pic_add img,
+    .python_last_pic_add img {
+        width: 100%; /* Ensure images take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .python_div_2 p,
+    .python_sub_div p,
+    .python_last_div_conts p {
+        font-size: 14px; /* Adjust font size for mobile */
+        line-height: 1.6; /* Adjust line height for better readability */
+    }
+
+    .python_sub_div h2,
+    .python_last_div_conts h2 {
+        font-size: 18px; /* Adjust header font size for mobile */
+    }
+
+    .python_main_back_div,
+    .python_last_main_div {
+        flex-direction: column; /* Stack items vertically on mobile */
+        gap: 15px; /* Reduce gap between items */
+        padding: 15px; /* Adjust padding for mobile view */
+    }
+
+    .python_main_back_div {
+        background-color: #104c6e;
+    }
+
+    .python_main_back_div h2 {
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+    }
+
+    .python_main_back_div_conts p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px; /* Adjust font size for mobile */
+        color: #fff;
+    }
+    .python_main_back_div_1{
+        display: grid;
+        gap: 20px;
+    }
+}

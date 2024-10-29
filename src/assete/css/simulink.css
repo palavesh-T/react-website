@@ -1,0 +1,80 @@
+.simulink_main_div{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.simulink_main_div video{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.about_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+  }
+  
+  .about_content h1 {
+    font-size: 3rem;
+  }
+  .simulink_text_div,.simulink_text_div_1,.simulink_text_div_2,.simulink_text_div_3,.simulink_text_div_4,.simulink_text_div_5,.simulink_text_div_6{
+    padding: 20px;
+  }
+  .simulink_text_div p,.simulink_text_div_1,.simulink_text_div_2,.simulink_text_div_3,.simulink_text_div_4,.simulink_text_div_5,.simulink_text_div_6{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+  }
+  @media only screen and (max-width: 768px) {
+    .simulink_main_div {
+      height: 40vh; /* Reduce height for smaller screens */
+      background-size: cover;
+    }
+  
+    .simulink_main_div video {
+      height: 100%; /* Ensure the video takes up the entire height */
+    }
+  
+    .about_content {
+      top: 40%; /* Adjust the top position for better centering */
+    }
+  
+    .about_content h1 {
+      font-size: 2rem; /* Decrease the heading size */
+      padding: 0 10px; /* Add some padding for text readability */
+    }
+  
+    .simulink_text_div,
+    .simulink_text_div_1,
+    .simulink_text_div_2,
+    .simulink_text_div_3,
+    .simulink_text_div_4,
+    .simulink_text_div_5,
+    .simulink_text_div_6 {
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
+  
+    .simulink_text_div p,
+    .simulink_text_div_1 p,
+    .simulink_text_div_2 p,
+    .simulink_text_div_3 p,
+    .simulink_text_div_4 p,
+    .simulink_text_div_5 p,
+    .simulink_text_div_6 p {
+      font-size: 14px; /* Adjust font size for readability */
+      line-height: 1.7; /* Slightly reduce line height */
+      padding: 0 10px; /* Add padding to keep text from touching the edges */
+    }
+  
+    .about_content {
+      width: 90%; /* Constrain content width for mobile */
+    }
+  }
+  

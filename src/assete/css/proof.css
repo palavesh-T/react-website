@@ -1,0 +1,108 @@
+.proof_mina_div{
+    /* background-image: url(../background//hed\ banner1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.proof_mina_div video{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.proof_div_mina,.proof_last_div,.proof_sub_last_div{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.proof_div_pic,.proof_div_mina_1,.proof_last_div_1,.proof_last_conts,.proof_sub_last_pic,.proof_sub_last_div_1{
+    width: 100%;
+}
+.proof_div_pic img,.proof_last_div_1 img,.proof_sub_last_pic img{
+    width: 100%;
+}
+.proof_div_mina_1 p,.proof_sub_last_div_1 p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+}
+.proof_div_pic{
+    padding: 50px;
+}
+.proof_last_div{
+    background-color: #104c6e;
+}
+.proof_last_conts p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+    color: #fff;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* Mobile View CSS */
+@media (max-width: 768px) {
+    .proof_main_div {
+        height: 40vh; /* Adjust height for mobile screens */
+        background-size: cover; /* Ensure background image covers the area */
+    }
+
+    .proof_div_mina,
+    .proof_last_div,
+    .proof_sub_last_div {
+        flex-direction: column; /* Stack items vertically on mobile */
+        gap: 15px; /* Reduce gap between items */
+        padding: 15px; /* Adjust padding for mobile view */
+    }
+
+    .proof_div_pic,
+    .proof_div_mina_1,
+    .proof_last_div_1,
+    .proof_last_conts,
+    .proof_sub_last_pic,
+    .proof_sub_last_div_1 {
+        width: 100%; /* Ensure full width for mobile */
+    }
+
+    .proof_div_pic img,
+    .proof_last_div_1 img,
+    .proof_sub_last_pic img {
+        width: 100%; /* Ensure images take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .proof_div_mina_1 p,
+    .proof_sub_last_div_1 p {
+        font-size: 14px; /* Adjust font size for mobile */
+        line-height: 1.6; /* Adjust line height for better readability */
+    }
+
+    .proof_div_pic {
+        padding: 20px; /* Reduce padding for mobile */
+    }
+
+    .proof_last_div {
+        background-color: #104c6e;
+    }
+
+    .proof_last_conts p {
+        font-size: 14px; /* Adjust font size for mobile */
+        color: #fff; /* Ensure text color is readable */
+    }
+    .proof_div_pic {
+        width: 90%;
+    }
+    .proof_mina_div {
+        width: 100%;
+        height: 40vh;
+        position: relative;
+        overflow: hidden;
+    }
+}

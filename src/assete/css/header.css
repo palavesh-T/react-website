@@ -1,0 +1,463 @@
+/* Header styles */
+.header {
+    position: fixed; /* Position header absolutely */
+    top: 0; /* Align header to the top of the page */
+    left: 0; /* Align header to the left of the page */
+    width: 100%; /* Full width */
+    background-color: transparent;
+    color: #ffffff; /* Set text color */
+    padding: 20px; /* Add padding to the header */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Center items vertically */
+    z-index: 1; 
+    height: 30px;
+  
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 24px; /* Set font size */
+  }
+  
+  /* Navigation menu styles */
+  .nav ul {
+    list-style-type: none; /* Remove default list styles */
+    display: flex; /* Use flexbox for layout */
+    margin-right: 80px;
+   
+  }
+  
+  .nav ul li {
+    margin-right: 20px; /* Add spacing between menu items */
+    white-space: nowrap;
+  }
+  
+  .nav ul li:last-child {
+    margin-right: 0; 
+  }
+  
+  .nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+   
+  /* .nav ul li a::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+  }  */
+  
+  
+  .nav ul li a:hover {
+    color: #fff; 
+  }
+  
+  
+  
+  .lg img {
+    width: 250px;
+    margin-top: 10px;
+  }
+  body{
+    overflow-x: auto;
+  }
+  
+  
+  .header.blue {
+    /* background-color: #ffffff;
+    border-bottom: #e4f3ff thin solid;
+    box-shadow: 3px 4px 18px 0px #3ac5ff; */
+    background-color: #333333e6;
+    box-shadow: 0px 2px 3px 0 #0b78ff3d;
+    z-index: 9999;
+  }
+  @media screen and (max-width: 768px) {
+    .header {
+        padding: 10px; /* Reduce padding for mobile view */
+        background-color: #fff;
+        
+       
+    }
+  
+    .logo {
+        font-size: 16px; 
+    }
+  
+    .nav ul {
+         /* Reduce right margin for mobile view */
+        display: grid;
+       
+    }
+  
+    .nav ul li {
+        margin-right: 0px; /* Reduce margin between menu items for mobile view */
+        padding: 5px;
+    }
+  
+    .nav ul li a {
+        font-size: 15px; /* Adjust font size for mobile view */
+        padding: 10px;
+        color: #fff;
+    }
+  
+    .lg img {
+        width: 150px; /* Reduce logo image size for mobile view */
+    }
+    .menu-icons {
+      display: block; 
+      position: absolute; /* Position menu icon */
+      top: 10px; /* Adjust top position */
+      right: 10px; /* Adjust right position */
+      z-index: 2; /* Ensure menu icon is above other content */
+      cursor: pointer;
+    }
+  
+    /* Navigation menu styles */
+    .nav {
+      position: absolute; /* Position navigation menu */
+      top: 40px; /* Adjust top position to align with header */
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      opacity: 0; /* Initially set opacity to 0 */
+      animation: fadeInMenu 0.8s ease forwards;
+      z-index: 1; /* Ensure navigation menu is above other content */
+    }
+  
+    /* Define fadeInMenu animation */
+    @keyframes fadeInMenu {
+      from {
+        opacity: 0;
+        transform: translateY(-10px); /* Move menu up slightly */
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0); /* Move menu back to its original position */
+      }
+    }
+  
+    /* Show navigation menu when open */
+    .nav.open {
+      display: block; 
+      opacity: 1;
+    }
+  
+    /* Menu icon bars */
+    .menu-icon-bar {
+      width: 30px;
+      height: 3px;
+      background-color: royalblue;
+      margin: 6px 0;
+      
+    }
+  
+    /* Dropdown menu item animation */
+    .nav li {
+      animation: fadeInMenuItem 0.5s ease forwards;
+      opacity: 0;
+    }
+  
+  
+    @keyframes fadeInMenuItem {
+      from {
+        opacity: 0;
+        transform: translateY(-10px); 
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0); 
+      }
+    }
+  
+    /* Adjust menu icon position */
+    .menu-icons {
+      left: 10px;
+      margin-top: 20px;
+    }
+  }
+  
+  
+  
+  .menu-icons {
+    display: none; 
+    cursor: pointer;
+  }
+  
+  .menu-icon-bar {
+    width: 30px;
+    height: 4px;
+    background-color: royalblue;
+    margin: 6px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-icons {
+      display: block; 
+    }
+   
+  
+    .nav {
+      display: none; 
+      position: absolute;
+      top: 50px; 
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      opacity: 0; /* Initially set opacity to 0 */
+      animation: fadeInMenu 0.8s ease forwards;
+    }
+    @keyframes fadeInMenu {
+      from {
+        opacity: 0;
+        transform: translateY(-10px); /* Move menu up slightly */
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0); /* Move menu back to its original position */
+      }
+    }
+    .nav.open {
+      display: block; 
+      opacity: 1;
+    }
+  
+    .nav ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+  
+    .nav ul li {
+      
+      /* border-bottom: 1px solid #555;  */
+      background-color: #0b78ffb0;
+      padding: 10px;
+    }
+  
+    .nav ul li:last-child {
+      border-bottom: none; 
+    }
+    
+    .menu-icons {
+      left: 80%;
+      margin-top: 0px;
+  } 
+  .nav li {
+    animation: fadeInMenuItem 0.5s ease forwards;
+    opacity: 0;
+  }
+  .dropdown-menu.show {
+   position: relative;
+   
+  }
+  .dropdown-menu{
+    width: 80%;
+    margin-left: 20px;
+  }
+  
+  /* Define fadeInMenuItem animation */
+  @keyframes fadeInMenuItem {
+    from {
+      opacity: 0;
+      transform: translateY(-10px); /* Move menu item up slightly */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Move menu item back to its original position */
+    }
+  }
+  }
+  
+  
+  
+  /* Dropdown button */
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 56%;
+    margin-top: 10px;
+    min-width: 160px;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    animation: fadeInMenu 0.9s ease forwards;
+  }
+  
+  /* Show dropdown menu when open */
+  .dropdown-menu.show {
+    display: block;
+    
+  }
+  @keyframes fadeInMenu {
+    from {
+      opacity: 0;
+      transform: translateY(-10px); /* Move menu up slightly */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Move menu back to its original position */
+    }
+    
+  }
+  
+  /* Dropdown item */
+  .dropdown-item {
+    display: block;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+    white-space: nowrap;
+    
+  }
+  
+  /* Hover effect on dropdown item */
+  .dropdown-item:hover {
+    background-color: lightgray;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  
+  .content-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* adjust text color as needed */
+  }
+  .content-overlay h1{
+    font-size: 50px;
+  }
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+    .dropdown-menu {
+      /* Adjust dropdown menu styles for mobile devices */
+      top: auto;
+      margin-top: 0;
+      left: 0;
+      right: 0;
+      width: 70%;
+      border: none;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+    .dropdown-item {
+      color: black !important;
+    }
+  
+    .dropdown-item {
+      /* Adjust dropdown item styles for mobile devices */
+      padding: 0.75rem;
+    }
+  
+    .dropdown-item:hover {
+      background-color: #f0f0f0;
+    }
+   
+    
+  }
+  /* Define the default color of the menu items */
+  .nav a {
+    color: white;
+  }
+  
+  /* Define the color of the menu items when hovered */
+  .nav a:hover {
+    color: black; /* Change this to your desired hover color */
+  }
+  
+  /* Define the color of the menu items when the header is scrolled */
+  .header.blue .nav a {
+    color: #fff; /* Change this to your desired color */
+  }
+  .header.blue .nav-link svg{
+    color: #fff;
+  }
+  /* Define the default color of the dropdown menu items */
+  .dropdown-menu a {
+    color: black !important;
+  }
+  
+  /* Define the color of the dropdown menu items when the header is scrolled */
+  .header.blue .dropdown-menu a {
+    color: black; /* Change this to your desired color */
+  }
+  
+  
+  .nav-link svg {
+   
+    height: auto; /* Maintain aspect ratio */
+  
+    color: #ffffff; /* Adjust the color of the icon */
+    font-weight: 900;
+    vertical-align: middle;
+    font-family: "font awesome 5 free";
+  }
+  
+  
+  
+  
+  /* ... existing CSS ... */
+  
+  /* Active menu item */
+  .nav ul li.active > a {
+    color: #0b78ff; /* Set active link color to red */
+    font-weight: bold; /* Optional: make it stand out */
+  }
+  
+  /* Active dropdown toggle */
+  .nav-link.active {
+    color: #0b78ff !important; /* Ensure it overrides other styles */
+  }
+  
+  /* Active dropdown item (optional) */
+  .dropdown-menu .dropdown-item.active {
+    color: #0b78ff; /* Optional: if you want to highlight active dropdown items */
+  }
+  
+  /* Adjust hover styles to prevent overriding active styles */
+  .nav a:hover {
+    color: black; /* Or any desired hover color */
+  }
+  
+  /* Ensure the active class styles apply when the header has the 'blue' class */
+  .header.blue .nav a {
+    color: #fff; /* Change this to your desired color when scrolled */
+  }
+  
+  .header.blue .nav-link svg {
+    color: #fff;
+  }
+  
+  /* Optional: Additional styles for active items in dropdowns */
+  .dropdown-menu .dropdown-item.active {
+    background-color: #f0f0f0; /* Light background for active dropdown items */
+    color: #0b78ff; /* Red text for active dropdown items */
+  }
+  
+  /* ... rest of your CSS ... */
+  

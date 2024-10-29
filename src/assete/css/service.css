@@ -1,0 +1,477 @@
+.seasense_web_service_div{
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../background//service.jpg);
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.seasense_web_service_div video{
+    position: relative;
+   
+    width: 100%;
+    height: 100%;
+}
+.about_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+  }
+  
+  .about_content h1 {
+    font-size: 3rem;
+  }
+.seasense_web_service_hed{
+    position: relative;
+}
+.seasense_web_service_hed h2{
+    text-align: center;
+}
+.seasense_web_service_hed h1{
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.025);
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    width: 100%;
+    left: 50%;
+    top: -27px;
+  text-align: center;
+    transform: translateX(-50%);
+}
+.seasense_service_main_div{
+    padding: 20px;
+}
+.service_seasense_div{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.service_seasense_div img{
+    position: absolute;
+    width: 100%;
+}
+.seasense_service_div{
+    display: flex;
+    gap:20px;
+}
+.service_seasense_div h2 {
+    position: relative;
+    z-index: 1; /* Ensure the text is above the video */
+    color: white; /* Adjust text color for visibility */
+    text-align: center;
+    line-height: 220px; /* Vertically center the text */
+    margin: 0;
+}
+.seasense_service_add_card_div{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../service//slide-5.jpg);
+    background-position: 50%;
+    background-size: cover;
+    padding: 50px 0 80px;
+}
+.seasense_service_conts_div_1 h2{
+    color: #fff;
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 32px;
+    padding: 0 100px;
+    text-align: center;
+    text-transform: inherit;
+}
+.seasense_service_high_btns button{
+    background-color: #001a57;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 45%;
+    padding: 0 35px;
+    text-transform: uppercase;
+}
+.seasense_service_high_btns button a{
+    text-decoration: none;
+    color: #fff;
+}
+.seasense_service_conts_hed{
+    position: relative;
+}
+.seasense_service_conts_hed h2{
+    text-align: center;
+}
+.seasense_service_conts_hed h1{
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.025);
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    width: 100%;
+    left: 50%;
+    top: -27px;
+  text-align: center;
+    transform: translateX(-50%);
+}
+.seasense_web_sservice_add_cont{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.seasense_web_cont_pic img{
+    width: 100%;
+    border-radius: 9px;
+}
+.conts_servicve_div_2 p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.service_main_card_div_2 h2{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.service_main_card_div_2 h2 a{
+    text-decoration: none;
+    color: #333;
+}
+.service_main_card_div_2 h2:hover{
+    color: darkblue;
+}
+.service_main_card_div_2 h2 a:hover{
+    color: darkblue;
+}
+.service_main_card_div_1{
+    padding: 40px;
+}
+/* .service_main_card_div_2{
+    display:flex ;
+    gap: 20px;
+} */
+.service_main_card_div_2 {
+    display: flex;
+    align-items: center; /* Vertically center the icon and text */
+    gap: 10px; /* Space between the icon and text */
+}
+.step_wizard_list{
+    background-color: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #333;
+    list-style-type: none;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 10px;
+    position: relative;
+    z-index: 10;
+}
+.step_wizard_item{
+    padding: 0 20px;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive:1;
+    flex-grow: 1;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 170px;
+    position: relative;
+}
+.step_wizard_item + .step_wizard_item::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:19px;
+    background-color: #21d4fd;
+    width: 100%;
+    height: 2px;
+    transform: translateX(-50%);
+    z-index: -10;
+}
+.current_item .progress_count::before,
+.current_item ~ .step_wizard_item .progress_count::before{
+    display: none;
+
+}
+.current_item ~ .step_wizard_item .progress_count::after{
+    height: 10px;
+    width: 10px;
+}
+.current_item ~ .step_wizard_item .progress_label{
+    opacity: 0.5;
+}
+.progress_count{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 600;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    color: transparent;
+}
+.progress_count::after{
+    content: "";
+    height: 40px;
+    width: 40px;
+    background-color: #21d4fd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -10;
+}
+.progress_count::before{
+    content: "";
+    height: 10px;
+    width: 20px;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%) rotate(-45deg);
+    transform-origin: center center;
+}
+.progress_label{
+font-size: 14px;
+font-weight: 600;
+margin-top: 10px;
+}
+
+.current_item .progress_count::after{
+    background-color: #fff;
+    border: 2px solid #21d4fd;
+}
+.current_item .progress_count{
+    color: #21d4fd;
+}
+.step_wizard{
+    background-color: #21d4fd;
+    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    height: 50vh;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mobile View CSS */
+@media (max-width: 768px) {
+    .seasense_web_service_div {
+        height: 40vh; /* Adjusted height for smaller screens */
+        width: 100%;
+    }
+
+    .seasense_web_service_hed h1 {
+        font-size: 40px; /* Adjusted font size for smaller screens */
+        top: -10px; /* Adjusted positioning for smaller screens */
+    }
+
+    .seasense_service_main_div {
+        padding: 10px; /* Reduced padding for smaller screens */
+    }
+
+    .service_seasense_div {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        gap: 10px; /* Reduced gap for smaller screens */
+    }
+    .service_seasense_div img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* .service_seasense_div h2 {
+        line-height: 120px; 
+
+    } */
+
+    .seasense_service_add_card_div {
+        background-size: cover;
+        padding: 30px 0 50px; /* Adjusted padding for smaller screens */
+    }
+
+    .seasense_service_conts_div_1 h2 {
+        font-size: 32px; /* Adjusted font size for smaller screens */
+        padding: 0 20px; /* Reduced padding for smaller screens */
+    }
+
+    .seasense_service_high_btns button {
+        margin-left: auto; /* Center button on smaller screens */
+        margin-right: auto;
+        display: block; /* Ensure button displays as block element */
+        padding: 10px 20px; /* Reduced padding for smaller screens */
+    }
+
+    .seasense_service_conts_hed h1 {
+        font-size: 40px; /* Adjusted font size for smaller screens */
+        top: -20px; /* Adjusted positioning for smaller screens */
+    }
+
+    .seasense_web_sservice_add_cont {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        gap: 15px; /* Reduced gap for smaller screens */
+    }
+
+    .seasense_web_cont_pic img {
+        width: 100%; /* Ensure images fit within the container */
+    }
+
+    .conts_servicve_div_2 p {
+        font-size: 14px; /* Reduced font size for smaller screens */
+    }
+
+    .seasense_service_div {
+        display: grid;
+        gap: 20px;
+    }
+    .service_main_card_div_1 {
+        padding: 20px; /* Reduced padding for smaller screens */
+    }
+
+    .service_main_card_div_2 {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        gap: 15px; /* Reduced gap for smaller screens */
+        align-items: flex-start; /* Align items to start for better readability */
+    }
+
+    .service_main_card_div_2 svg {
+        width: 60px; /* Reduced size of icons for smaller screens */
+    }
+
+    .service_main_card_div_2 h2 {
+        font-size: 15px; /* Reduced font size for smaller screens */
+    }
+
+ 
+    .service_main_card_div_2 svg{
+        width: 10px !important;
+        display: none;
+    }
+    .step_wizard {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px; /* Add padding around the section */
+        background-image: none; /* Remove background image if it affects readability */
+        background-color: #21d4fd; /* Ensure background color is visible */
+        width: 88%;
+    }
+
+    .step_wizard_list {
+        flex-direction: column; /* Stack list items vertically */
+        padding: 10px; /* Adjust padding for better fit */
+        width: 100%;
+    }
+
+    .step_wizard_item {
+        padding: 10px 0; /* Vertical padding for list items */
+        text-align: center; /* Center-align text */
+        max-width: none; /* Remove max-width constraint */
+        width: 100%; /* Allow items to take full width */
+        margin: 0; /* Remove margin */
+    }
+
+    .step_wizard_item + .step_wizard_item::after {
+        display: none; /* Hide the connecting line between items */
+    }
+
+    .progress_count {
+        height: 30px; /* Smaller size for mobile */
+        width: 30px; /* Smaller size for mobile */
+        font-size: 12px; /* Smaller font size */
+    }
+
+    .progress_count::after {
+        height: 30px; /* Match the height of the smaller count */
+        width: 30px; /* Match the width of the smaller count */
+    }
+
+    .progress_label {
+        font-size: 12px; 
+        margin-top: 5px; 
+    }
+    .seasense_web_we_are_div_1 {
+        padding: 15px; 
+       
+    }
+    .seasense_web_we_are_1 h2 {
+        font-size: 22px; 
+    }
+    
+    .seasense_web_we_are_1 p {
+        font-size: 14px; 
+        padding: 0 10px;
+        text-align: justify !important;
+    }
+    .seasense_web_we_are {
+        width: 100%;
+        height: auto !important;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .seasense_web_we_are_1{
+        height: auto;
+    }
+
+}
+
+
+.seasense_web_we_are_div_1 {
+    position: relative;
+    /* z-index: 1;  */
+    padding: 20px;
+    color: white; 
+}
+.seasense_web_we_are_1 h2{
+    text-align: center;
+}
+.seasense_web_we_are_1 p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seasense_web_we_are {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    background-color: lightblue;
+}
+/* .seasense_web_we_are img{
+    position: absolute;
+    width: 100%;
+
+} */
+
+.seasense_web_we_are::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 0; 
+}

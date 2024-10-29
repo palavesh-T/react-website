@@ -1,0 +1,119 @@
+.vlsi_main_div{
+    /* background-image: url(../background//hed\ banner1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.vlsi_main_div video{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.vlsi_div,.vlsi_last_div{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.vlsi_pic_add,.vlsi_div_1,.vlsi_last_conts_div,.vlsi_last_vdo_div{
+    width: 100%;
+}
+.vlsi_pic_add img{
+    width: 100%;
+}
+.vlsi_div_1 p,.vlsi_conts_last_div{
+    text-align: justify;
+    line-height: 1.9;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.vlsi_main_div_back_pic{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5 )), url(../development//vlsibanner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.vlsi_main_conts_add,.vlsi_conts_last_div{
+    padding: 20px;
+}
+.vlsi_main_conts_add p{
+    text-align: justify;
+    line-height: 1.9;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.vlsi_last_vdo_div{
+    position: relative;
+}
+.vlsi_last_vdo_div img{
+    position: relative;
+    border-radius: 9px;
+    width: 100%;
+}
+
+
+/* Mobile View CSS */
+@media (max-width: 768px) {
+    .vlsi_main_div {
+        height: 40vh; /* Adjust height for mobile screens */
+        background-size: cover; /* Ensure background image covers the area */
+    }
+
+    .vlsi_div,
+    .vlsi_last_div {
+        flex-direction: column; /* Stack items vertically on mobile */
+        gap: 15px; /* Reduce gap between items */
+        padding: 15px; /* Adjust padding for mobile view */
+    }
+
+    .vlsi_pic_add,
+    .vlsi_div_1,
+    .vlsi_last_conts_div,
+    .vlsi_last_vdo_div {
+        width: 100%; /* Ensure full width for mobile */
+    }
+
+    .vlsi_pic_add img {
+        width: 100%; /* Ensure images take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .vlsi_div_1 p,
+    .vlsi_conts_last_div p {
+        font-size: 14px; /* Adjust font size for mobile */
+        line-height: 1.6; /* Adjust line height for better readability */
+    }
+
+    .vlsi_main_div_back_pic {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../development/vlsibanner.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: auto; /* Adjust height for mobile screens */
+    }
+
+    .vlsi_main_conts_add,
+    .vlsi_conts_last_div {
+        padding: 15px; /* Adjust padding for mobile view */
+    }
+
+    .vlsi_main_conts_add p {
+        font-size: 14px; /* Adjust font size for mobile */
+        color: #fff; /* Ensure text color is readable */
+    }
+
+    .vlsi_last_vdo_div {
+        position: relative;
+    }
+
+    .vlsi_last_vdo_div video {
+        position: relative;
+        border-radius: 9px;
+        width: 100%; /* Ensure video takes full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+}

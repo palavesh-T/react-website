@@ -1,0 +1,114 @@
+.java_main_div{
+    /* background-image: url(../background//hed\ banner1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.java_main_div video{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.java_div_1,.java_sub_cont,.java_last_conts{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.java_div_conts,.java_main_pic,.java_sub_conts_1,.java_last_conts_1{
+    width: 100%;
+}
+.java_main_pic img,.java_last_conts_1 img{
+    width: 100%;
+}
+.java_div_conts p,.java_last_conts_1_div p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+}
+.java_sub_conts_div h2{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.java_sub_conts_div{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5 )), url(../development//java5.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+   
+}
+.java_sub_conts_div_lats{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5 )), url(../development//java4.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+   
+}
+.java_sub_conts_1 h2{
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.java_sub_conts_1 p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+    color: #fff;
+}
+
+/* Mobile View CSS */
+@media (max-width: 768px) {
+    .java_main_div {
+        height: 40vh; /* Adjust height for mobile screens */
+        background-size: cover; /* Ensure background image covers the area */
+    }
+
+    .java_div_1,
+    .java_sub_cont,
+    .java_last_conts {
+        flex-direction: column; /* Stack items vertically on mobile */
+        gap: 15px; /* Reduce gap between items */
+        padding: 15px; /* Adjust padding for mobile view */
+    }
+
+    .java_div_conts,
+    .java_main_pic,
+    .java_sub_conts_1,
+    .java_last_conts_1 {
+        width: 100%; /* Ensure full width for mobile */
+    }
+
+    .java_main_pic img,
+    .java_last_conts_1 img {
+        width: 100%; /* Ensure images take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .java_div_conts p,
+    .java_last_conts_1_div p {
+        font-size: 14px; /* Adjust font size for mobile */
+        line-height: 1.6; /* Adjust line height for better readability */
+    }
+
+    .java_sub_conts_div,
+    .java_sub_conts_div_lats {
+        background-size: cover; /* Ensure background images cover the area */
+        background-position: center; /* Center background images */
+    }
+
+    .java_sub_conts_div h2,
+    .java_sub_conts_1 h2 {
+        font-size: 18px; /* Adjust header font size for mobile */
+    }
+
+    .java_sub_conts_1 p {
+        font-size: 14px; /* Adjust paragraph font size for mobile */
+    }
+}

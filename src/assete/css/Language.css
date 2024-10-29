@@ -1,0 +1,115 @@
+.language_main_div{
+    /* background-image: url(../background//hed\ banner1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow:hidden;
+}
+.language_main_div video{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.language_div_main,.language_sub_div,.language_last_sub_div{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.language_div_add_pic,.language_div_main_1,.language_sub_div_1,.language_sub_div_conts,.language_last_pic_add,.language_last_sub_div_1{
+    width: 100%;
+}
+.language_div_add_pic img,.language_sub_div_1 img,.language_last_pic_add img{
+    width: 100%;
+}
+.language_div_main_1 p,.language_sub_div_conts p,.language_lats_main_conts p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+}
+.language_sub_div_conts h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.language_last_sub_div{
+    background-color: #104c6e;
+}
+.language_last_sub_div_1 p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+    color: #fff;
+}
+.language_last_sub_div_1 h2{
+    font-size: 20px;
+    color: #fff;
+}
+.language_lats_main_conts{
+    padding: 20px;
+}
+
+
+/* Mobile View CSS */
+@media (max-width: 768px) {
+    .language_main_div {
+        height: 40vh; /* Adjust height for mobile screens */
+        background-size: cover; /* Ensure background image covers the area */
+    }
+
+    .language_div_main,
+    .language_sub_div,
+    .language_last_sub_div {
+        flex-direction: column; /* Stack items vertically on mobile */
+        gap: 15px; /* Reduce gap between items */
+        padding: 15px; /* Adjust padding for mobile view */
+    }
+
+    .language_div_add_pic,
+    .language_div_main_1,
+    .language_sub_div_1,
+    .language_sub_div_conts,
+    .language_last_pic_add,
+    .language_last_sub_div_1 {
+        width: 100%; /* Ensure full width for mobile */
+    }
+
+    .language_div_add_pic img,
+    .language_sub_div_1 img,
+    .language_last_pic_add img {
+        width: 100%; /* Ensure images take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .language_div_main_1 p,
+    .language_sub_div_conts p,
+    .language_lats_main_conts p {
+        font-size: 14px; /* Adjust font size for mobile */
+        line-height: 1.6; /* Adjust line height for better readability */
+    }
+
+    .language_sub_div_conts h2 {
+        font-size: 18px; /* Adjust heading size for mobile */
+    }
+
+    .language_last_sub_div {
+        background-color: #104c6e; /* Ensure background color remains consistent */
+    }
+
+    .language_last_sub_div_1 p {
+        font-size: 14px; /* Adjust font size for mobile */
+        color: #fff; /* Ensure text color is readable */
+    }
+
+    .language_last_sub_div_1 h2 {
+        font-size: 18px; /* Adjust heading size for mobile */
+        color: #fff; /* Ensure text color is readable */
+    }
+
+    .language_lats_main_conts {
+        padding: 15px; /* Adjust padding for mobile */
+    }
+}

@@ -1,0 +1,111 @@
+.grammar_main_div{
+    /* background-image: url(../background//hed\ banner1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.grammar_main_div video{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.grammar_check_div,.grammer_sub_div_1,.grammar_last_div{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.grammar_check_div_1,.grammer_pic_add,.grammar_sub_div_2,.grammar_last_div_1,.grammar_last_cont_div{
+    width: 100%;
+}
+.grammer_pic_add img,.grammar_last_div_1 img{
+    width: 100%;
+}
+.grammar_check_div_1 p,.grammar_last_cont_div p,.grammaer_check_last_div p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+}
+.grammer_sub_div{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5 )), url(../background//servicebanner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.grammar_sub_div_2 p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+    color: #fff;
+}
+.grammar_last_cont_div h2,.grammaer_check_last_div h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.grammaer_check_last_div{
+    padding: 20px;
+}
+
+/* Mobile View CSS */
+@media (max-width: 768px) {
+    .grammar_main_div {
+        height: 40vh; /* Adjust height for mobile screens */
+        background-size: cover; /* Ensure background image covers the area */
+    }
+
+    .grammar_check_div,
+    .grammer_sub_div_1,
+    .grammar_last_div {
+        flex-direction: column; /* Stack items vertically on mobile */
+        gap: 15px; /* Reduce gap between items */
+        padding: 15px; /* Adjust padding for mobile view */
+    }
+
+    .grammar_check_div_1,
+    .grammer_pic_add,
+    .grammar_sub_div_2,
+    .grammar_last_div_1,
+    .grammar_last_cont_div {
+        width: 100%; /* Ensure full width for mobile */
+    }
+
+    .grammer_pic_add img,
+    .grammar_last_div_1 img {
+        width: 100%; /* Ensure images take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .grammar_check_div_1 p,
+    .grammar_last_cont_div p,
+    .grammaer_check_last_div p {
+        font-size: 14px; /* Adjust font size for mobile */
+        line-height: 1.6; /* Adjust line height for better readability */
+    }
+
+    .grammer_sub_div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../background//servicebanner.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .grammar_sub_div_2 p {
+        font-size: 14px; /* Adjust font size for mobile */
+        color: #fff; /* Ensure text color is readable */
+    }
+
+    .grammar_last_cont_div h2,
+    .grammaer_check_last_div h2 {
+        font-size: 18px; /* Adjust font size for mobile */
+        color: #fff; /* Ensure text color is readable */
+    }
+
+    .grammaer_check_last_div {
+        padding: 15px; /* Adjust padding for mobile */
+    }
+}

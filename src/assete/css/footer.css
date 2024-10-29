@@ -1,0 +1,191 @@
+.footer_div_2 img{
+    width: 100%;
+    margin-top: -20px;
+  }
+  .footer_div_2 , .add_address_foot, .add_sub_addrs{
+    width: 100%;
+  }
+  .foote_next_page{
+    width: 50%;
+  }
+  .footer_div_1{
+    display: flex;
+    gap:50px;
+   background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.5)), url(../footer//footer4.jpg);
+    background-size: cover;
+    background-position: center; 
+    padding: 50px;
+    /* background-color: #001648; */
+  }
+  .fo_cont_1 p{
+    margin-top: -10px;
+    color: #fff;
+    text-align: justify;
+  }
+  
+  .foote_next_page p ,.add_add_fo p, .add_sub_addrs p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .foote_next_page p a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+      transition: all 0.3s ease;
+  }
+  .foote_next_page p a:hover{
+    color: #fff;
+    margin-left: 10px;
+  }
+  .add_add_fo h2, .foote_next_page h2, .add_sub_addrs h2{
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  
+  /* Pointer cursor on the Link tag */
+  .foote_next_page a,
+  .footer_main_div a {
+      cursor: pointer; /* Makes the cursor a pointer when hovering over the Link */
+      font-size: 15px;
+      font-weight: 600;
+  }
+  
+  
+  /* Footer.css */
+  .footer_div_2 {
+    display: flex;
+    flex-direction: column;
+   
+  
+  }
+  
+  .fo_cont_1 {
+    margin-top: 10px;
+    max-width: 600px;
+  }
+  .footer_div_2 h2{
+    font-size: 15px;
+    color: #fff;
+  }
+  .social_icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social_icons a {
+    color: #9ca6bf; /* Change this to the color you prefer */
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social_icons a:hover {
+    color: #007bff; /* Change this to the hover color you prefer */
+  }
+  .foot_copy_div_1 h2{
+    text-align: center;
+    font-size: 15px;
+  }
+  .foot_copy_div_1{
+    background-color: #001648;
+  }
+  .foot_copy_div_1 {
+    width: 100%;
+    text-align: center;
+   
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer; /* Ensures the pointer appears when hovering */
+  }
+  
+  .tooltip a {
+    color: #fff; /* Ensures icon color is white */
+    font-size: 20px;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the icon */
+    left: 50%;
+    margin-left: -40px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Arrow at the bottom */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  
+  
+  .foot_copy_div_1 h2 {
+    font-size: 13px;
+    color: #6c757d;
+  }
+  .footer_main_div {
+   
+  
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  body{
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+   
+    .footer_div_1 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer_div_2,
+    .foote_next_page,
+    .add_address_foot,
+    .add_sub_addrs {
+      text-align: center;
+    }
+  
+    .social_icons a {
+      font-size: 24px;
+    }
+    .foote_next_page {
+        width: 100%;
+    }
+    .social_icons{
+        margin-left: 80px;
+    }
+    .footer_div_2 img{
+        margin-left: 30px;
+    }
+    .foot_copy_div_1 h2 {
+      font-size: 10px;
+      color: #6c757d;
+    }
+  }

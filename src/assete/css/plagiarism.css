@@ -1,0 +1,128 @@
+.plagiarsim_main_div{
+    /* background-image: url(../background//hed\ banner1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover; */
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+.plagiarsim_main_div video{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.about_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+  }
+  
+  .about_content h1 {
+    font-size: 3rem;
+  }
+.plagiarism_div,.plagram_div_conts,.plagram_last_main_div_1{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.plagiarism_div_pic_add,.plagiarism_div_1,.plagram_div_conts_1,.plagram_last_pic_add,.plagrm_last_conts_div{
+    width: 100%;
+}
+.plagiarism_div_pic_add img,.plagram_last_pic_add img{
+    width: 100%;
+}
+.plagiarism_div_1 p,.plagrm_last_conts_div p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+}
+.plagram_div_conts_1 h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.plagram_div_back_vdo{
+    /* position: relative;
+    overflow: hidden; */
+    width: 100%;
+    background-color: #104c6e;
+    
+
+}
+.plagram_div_back_vdo img{
+    /* position: absolute; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.plagram_div_conts_1 p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+    color: #fff;
+}
+
+
+/* Mobile View CSS */
+@media (max-width: 768px) {
+    .plagiarsim_main_div {
+        height: 40vh; /* Adjust height for mobile screens */
+        background-size: cover; /* Ensure background image covers the area */
+    }
+
+    .plagiarism_div,
+    .plagram_div_conts,
+    .plagram_last_main_div_1 {
+        flex-direction: column; /* Stack items vertically on mobile */
+        gap: 15px; /* Reduce gap between items */
+        padding: 15px; /* Adjust padding for mobile view */
+    }
+
+    .plagiarism_div_pic_add,
+    .plagiarism_div_1,
+    .plagram_div_conts_1,
+    .plagram_last_pic_add,
+    .plagrm_last_conts_div {
+        width: 100%; /* Ensure full width for mobile */
+    }
+
+    .plagiarism_div_pic_add img,
+    .plagram_last_pic_add img {
+        width: 100%; /* Ensure images take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .plagiarism_div_1 p,
+    .plagrm_last_conts_div p {
+        font-size: 14px; /* Adjust font size for mobile */
+        line-height: 1.6; /* Adjust line height for better readability */
+    }
+
+    .plagram_div_conts_1 h2 {
+        font-size: 18px; /* Adjust font size for mobile */
+        color: #fff; /* Ensure text color is readable */
+    }
+
+    .plagram_div_back_vdo {
+        background-color: rgba(0, 0, 0, 0.6); /* Keep dark overlay for background video */
+        position: relative;
+        overflow: hidden;
+        width: 100%; /* Ensure full width */
+    }
+
+    .plagram_div_conts_1 p {
+        font-size: 14px; /* Adjust font size for mobile */
+        color: #fff; /* Ensure text color is readable */
+    }
+    .plagram_div_back_vdo img{
+        width: 100%;
+        height: 232vh;
+    }
+}

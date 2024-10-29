@@ -1,0 +1,442 @@
+.seasense_web_about_div{
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../background//about2.jpg);
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+.seasense_web_about_div video{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.about_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+  }
+  
+  .about_content h1 {
+    font-size: 3rem;
+  }
+.seasense_web_about,.sewasense_web_about_conts{
+    padding: 20px;
+}
+.seasense_web_about_add_pic,.sewasense_web_about_conts{
+    width: 100%;
+}
+.sewasense_web_about_conts h1{
+    color: #0b78ff;
+}
+.seasense_about_cont h2{
+    color: #0b78ff;
+}
+.seasense_web_about_add_pic img{
+    width: 100%;
+    border-radius: 9px;
+}
+.seasense_web_about_div_1{
+    display: flex;
+    gap:20px;
+}
+.seasense_about_div_1 img{
+    width: 50px;
+}
+.seasense_web_soft_about_1{
+    display: flex;
+    gap:20px;
+}
+.sewasense_web_about_conts p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seasense_line_div{
+    border-bottom: 1px solid black;
+}
+.seasense_about_expert{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    height: auto;
+    background-color: #104c6e;
+}
+.seasense_about_expert_1{
+    display: flex;
+    gap: 50px;
+   
+}
+.seasense_about_expert_2{
+    width: 100%;
+}
+.seasense_about_expert_2 h1,.seasense_about_expert_conts h2{
+    padding: 10px;
+    color: #fff;
+}
+.seasense_about_expert_conts h2{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seasense_about_expert_btn {
+   padding: 50px;
+}
+.seasense_about_expert_btn button{
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #0b78ff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.seasense_about_expert_btn button a{
+    text-decoration: none;
+}
+.about_team_main_div{
+    padding: 20px;
+}
+.about_team_div_1{
+    padding: 50px;
+    position: relative;
+}
+.about_team_div{
+    display: flex;
+    gap:20px;
+}
+.about_team_div_1,.team_about_pic{
+    width: 100%;
+}
+.about_team_div_1 h2{
+    color: #0b78ff;
+}
+.about_team_div_1 p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.team_about_pic img{
+    width: 80%;
+    border-radius: 10px;
+}
+.about_best_div{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+.about_best_pic img{
+    width: 50px;
+}
+.about_best_main_div {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflow */
+    background-color:#104c6e;
+}
+
+.about_best_div_1 h2,.about_best_div_1 p{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seasense_short_history{
+    display: flex;
+    gap:20px;
+    padding: 20px;
+}
+.seasense_short_history_1,.history_short_conts{
+    width: 100%;
+    position: relative;
+}
+.history_short_conts h1{
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.025);
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    width: 100%;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+}
+.seasense_short_history_1 img{
+    width: 100%;
+    border-radius: 9px;
+}
+.history_short_conts p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.history_short_conts h2{
+    color: #0b78ff;
+}
+.about_team_div_1 h1{
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.025);
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    width: 100%;
+    left: 50%;
+    top: 55px;
+  
+    transform: translateX(-50%);
+   
+}
+.about_best_div_2{
+    padding: 20px;
+}
+.about_best_div_2 h2{
+    text-align: center;
+    color: #333;
+    font-size: 25px;
+}
+.about_best_div_2 em{
+    font-size: 25px; 
+    color: #0b78ff;
+}
+.about_best_div_2 h3{
+    font-size: 20px;
+    color: #0b78ff;
+}
+.about_best_div_2 p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    overflow-x: hidden;
+}
+.about_line{
+     background: #0b78ff;
+    content: "";
+    height: 2px;
+    left: 1.7%;
+    margin-top: -10px;
+    position: absolute;
+    width: 70px;
+}
+.seasense_web_company {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+}
+.seasense_web_company img{
+    width: 100%;
+    position: absolute;
+}
+.seasense_web_company::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+    z-index: 1;
+}
+
+
+.seasense_web_company_div{
+    display: flex;
+    gap: 0px;
+}
+.seasense_web_company_main h2,.seasense_web_company_contenst{
+    text-align: center;
+    color: #ffffff;
+    z-index: 999999;
+    position: relative;
+}
+.seasense_web_company_main p{
+    color: #ffffff;
+    z-index: 999999;
+    position: relative;
+}
+.seasense_web_company_main p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seasense_web_company_contenst{
+    border-right: 1px solid rgba(255, 255, 255, 0.3);;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);;
+}
+.seasense_web_company_contenst p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Mobile View CSS */
+@media (max-width: 768px) {
+    .seasense_web_about_div_1,.seasense_about_expert_1,.seasense_short_history,.about_team_div{
+        display: grid;
+        gap: 20px;
+    }
+    .seasense_short_history{
+        padding:30px;
+    } 
+    .about_best_div_2{
+        padding: 30px;
+    }
+    .seasense_web_about_div video{
+        position: relative;
+        width: 100%;
+    }
+    .about_team_div_1 {
+        padding: 0px;
+    }
+    .about_best_main_div {
+        height: 107vh; /* Adjust height for smaller screens */
+    }
+
+    .about_best_div {
+        flex-direction: column; /* Stack items vertically */
+        padding: 5px; /* Reduced padding for smaller screens */
+        gap: 0px;
+    }
+
+    .about_best_div_1 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align items */
+        text-align: center; /* Center align text */
+        gap: 15px; /* Reduced gap for smaller screens */
+        margin-bottom: 20px; /* Space between items */
+    }
+
+    .about_best_pic img {
+        width: 50px; /* Adjust image size for smaller screens */
+    }
+
+    .about_best_div_1 h2 {
+        font-size: 18px; /* Adjusted font size for smaller screens */
+    }
+
+    .about_best_div_1 p {
+        font-size: 14px; /* Reduced font size for smaller screens */
+        line-height: 1.4; /* Adjusted line height */
+    }
+    .sewasense_web_about_conts{
+        width: 95%;
+        padding: 8px;
+    }
+    .seasense_web_about_add_pic img {
+        width: 95% !important;
+    }
+    .seasense_web_about_div {
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../background//about2.jpg);
+        background-position: center;
+        background-size: cover; */
+        width: 100%;
+        height: 40vh;
+    }
+    .about_team_div_1 h1 {
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+        color: rgba(0, 0, 0, 0.025);
+        text-transform: uppercase;
+        font-size: 45px;
+        font-weight: 800;
+        letter-spacing: .5px;
+        width: 100%;
+        left: 50%;
+        top: 5px;
+        transform: translateX(-50%);
+    }
+    .seasense_web_about,.seasense_web_soft_about{
+        padding: 20px;
+    }
+  
+    .sewasense_web_about_conts h1{
+        font-size: 20px;
+    }
+    .seasense_about_cont h2{
+        font-size: 20px;
+    }
+    .seasense_web_company {
+        width: 100%;
+        height: auto;
+        padding: 20px 0px;
+    }
+    .seasense_web_company img{
+        height: 100%;
+    }
+
+    .seasense_web_company_div {
+        display: block;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .seasense_web_company_main h2,
+    .seasense_web_company_main p,
+    .seasense_web_company_contenst h2,
+    .seasense_web_company_contenst p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .seasense_web_company_contenst {
+        border: none; 
+        margin-bottom: 20px;
+    }
+
+    .seasense_web_company_contenst h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .seasense_web_company_contenst p {
+        font-size: 14px;
+    }
+    video {
+        width: 100%;
+        height: 107vh;
+        object-fit: cover;
+    }
+    .about_content h1 {
+        font-size: 2rem !important;
+    }
+    .about_line {
+        background: #0b78ff;
+        content: "";
+        height: 2px;
+        left: 5.7%;
+        margin-top: -10px;
+        position: absolute;
+        width: 70px;
+    }
+    .history_short_conts h1 {
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+        color: rgba(0, 0, 0, 0.025);
+        text-transform: uppercase;
+        font-size: 35px;
+        font-weight: 800;
+        letter-spacing: .5px;
+        width: 100%;
+        left: 48%;
+        top: 11px;
+        transform: translateX(-50%);
+    }
+}
